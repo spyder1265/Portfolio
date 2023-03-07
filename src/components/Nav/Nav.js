@@ -73,7 +73,7 @@ const Navbar = () => {
         <Section>
             <Container>
                 <Links>
-                    <Logo src="./img/logo.svg" />
+                    <Logo src="./img/Logo.svg" />
                     <List>
                         <ListItem className="hover:text-gray-300">Home</ListItem>
                         <ListItem className="hover:text-gray-300">Studio</ListItem>

@@ -8,7 +8,7 @@ import styled from "styled-components";
 // noinspection CssUnknownTarget
 const Container = styled.div`
   height: 100vh;
-  background: url("./Img/bg2.png") no-repeat;
+  background: url("./Img/bg.PNG") no-repeat;
   background-size: cover;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
