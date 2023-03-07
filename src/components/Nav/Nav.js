@@ -36,10 +36,6 @@ const Icons = styled.div`
   gap: 20px;
 `;
 
-const Logo = styled.img`
-  width: 70px;
-  height: 70px;
-`;
 
 const List = styled.ul`
   display: flex;
@@ -55,10 +51,6 @@ const ListItem = styled.li`
   cursor: pointer;
 `;
 
-const Icon = styled.img`
-    width: 20px;
-    cursor: pointer;
-`;
 
 const Button = styled.button`
   width: 100px;
@@ -75,7 +67,7 @@ const Navbar = () => {
         <Section>
             <Container>
                 <Links>
-                    <Logo src={Logoimg} />
+                    <img alt="" className="logo" src={Logoimg} />
                     <List>
                         <ListItem className="hover:text-gray-300">Home</ListItem>
                         <ListItem className="hover:text-gray-300">Studio</ListItem>
@@ -84,7 +76,7 @@ const Navbar = () => {
                     </List>
                 </Links>
                 <Icons>
-                    <Icon src={Search} />
+                    <img alt="" className="icon" src={Search} />
                     <Button className="hover:bg-[#ad1570]">Hire Now</Button>
                 </Icons>
             </Container>
