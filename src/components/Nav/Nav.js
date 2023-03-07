@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import Logoimg from '../../../public/Img/logo.svg';
+import Search from '../../../public/Img/searchico.png';
 
 const Section = styled.div`
   display: flex;
@@ -73,7 +75,7 @@ const Navbar = () => {
         <Section>
             <Container>
                 <Links>
-                    <Logo src={"./img/logo.svg"} />
+                    <Logo src={Logoimg} />
                     <List>
                         <ListItem className="hover:text-gray-300">Home</ListItem>
                         <ListItem className="hover:text-gray-300">Studio</ListItem>
@@ -82,7 +84,7 @@ const Navbar = () => {
                     </List>
                 </Links>
                 <Icons>
-                    <Icon src="./img/searchico.png"/>
+                    <Icon src={Search} />
                     <Button className="hover:bg-[#ad1570]">Hire Now</Button>
                 </Icons>
             </Container>
