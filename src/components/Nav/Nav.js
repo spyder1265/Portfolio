@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Logoimg from '../../../public/Img/logo.svg';
-import Search from '../../../public/Img/searchico.png';
+import Logoimg from '../../Assets/Img/logo.svg';
+import Search from '../../Assets/Img/searchico.png';
 
 const Section = styled.div`
   display: flex;
